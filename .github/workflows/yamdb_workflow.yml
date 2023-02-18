@@ -39,7 +39,7 @@ jobs:
     needs: tests
     steps:
       - name: Check out the repo
-        # Проверка доступности репозитория Docker Hub для workflo
+        # Проверка доступности репозитория Docker Hub длfя workfl
         uses: actions/checkout@v2 
       - name: Set up Docker Buildx
         # Вызов сборщика контейнеров docker
@@ -55,7 +55,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: vhskonami/infra:latest
+          tags: vhskonami/yamdb_f:latest
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
