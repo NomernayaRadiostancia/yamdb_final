@@ -39,8 +39,10 @@ REST API для сервиса YaMDb — базы отзывов о фильма
 ## Описание команды для заполнения базы данными:
 `docker-compose exec web python manage.py dumpdata > fixtures.json`
 
+## Развернутый проект:
+`http:/158.160.58.80/admin/`
 ## Документация API с примерами:
-`/redoc/`
+`http:/158.160.58.80/redoc/`
 
 ## шаблон наполнения env-файла:
 /infra/.env.template
