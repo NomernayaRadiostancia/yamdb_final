@@ -43,7 +43,7 @@ jobs:
     needs: tests
     steps:
       - name: Check out the repo
-        # Проверка доступности репозитория Docker Hub длfя workfl
+        # Проверка доступности репgозитория Docker Hub длfя workl
         uses: actions/checkout@v2 
       - name: Set up Docker Buildx
         # Вызов сборщика контейнеров docker
